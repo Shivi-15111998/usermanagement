@@ -1,0 +1,31 @@
+
+<button class="btn btn-primary"
+     routerLink="/form">Add user>
+</button>
+<table class="table">
+    <thead>
+      <tr>
+    
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Mobile</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of listdata">
+       
+        <td>{{i.name}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.mobile}}</td>
+        <td>{{i.gender}}</td>
+        <td>{{i.address}}</td>
+        <td><button (click)="deleteuser(i.id)">Remove</button></td>
+        <td><button (click)="update(i.id)" routerLink="/update/{{i.id}}">Update</button></td>
+      </tr>
+     
+    </tbody>
+  </table>
+
+

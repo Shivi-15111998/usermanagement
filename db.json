@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+        "name": "shivangi",
+        "email": "sayshivangi1998@gmail.com",
+        "gender": "female",
+        "role": "engineer",
+        "address": "char sehar ka naka",
+        "mobile": "345678902",
+        "id": 1
+      },
+    {
+      "name": "shivangi",
+      "email": "sayshivangi1998@gmail.com",
+      "gender": "female",
+      "role": "engineer",
+      "address": "char sehar ka naka",
+      "mobile": "345678902",
+      "id": 2
+    },
+    {
+      "name": "shivangi",
+      "email": "sayshivangi1998@gmail.com",
+      "gender": "female",
+      "role": "engineer",
+      "address": "char sehar ka naka",
+      "mobile": "345678902",
+      "id": 3
+    },
+    {
+      "name": "shivangi",
+      "email": "sayshivangi1998@gmail.com",
+      "gender": "female",
+      "role": "engineer",
+      "address": "char sehar ka naka",
+      "mobile": "345678902",
+      "id": 4
+    },
+    {
+      "name": "shivangi",
+      "email": "sayshivangi1998@gmail.com",
+      "gender": "female",
+      "role": "engineer",
+      "address": "char sehar ka naka",
+      "mobile": "345678902",
+      "id": 5
+    }
+  ]
+}
